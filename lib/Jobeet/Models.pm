@@ -5,7 +5,7 @@ use Ark::Models '-base';
 
 register Schema => sub {
     my $self = shift;
-    # Gitのテストtest test
+    # Gitのテストtest test test
     # 設定ファイルconf.plの読み込み
     my $conf = $self->get('conf')->{database}
         or die 'require database config';
